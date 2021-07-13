@@ -1,7 +1,8 @@
 pipeline {
     agent { label 'nodejs' }
 
-    environment { APP_NAMESPACE = 'RHT_OCP4_DEV_USER-devsecops' }
+    environment { APP_NAMESPACE = 'ghegsj-devsecops' }
+
 
     stages{
 
